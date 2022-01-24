@@ -13,7 +13,7 @@
 
 	<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" />
 		
-	<bean name="/aboutus.web" class="com.hmw.controller.AboutUsController" />
+	<bean name="/" class="com.hmw.controller.AboutUsController" />
 
 	<bean id="contactusController" class="com.hmw.controller.ContactUsController" />
 
